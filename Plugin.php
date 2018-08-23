@@ -97,7 +97,7 @@ class UserAgent_Plugin implements Typecho_Plugin_Interface
                 $ua = $os_title."&nbsp;|&nbsp;".$wb_title;
                 break;
             case 3:
-                $ua = $os_img.$os_title."&nbsp;|&nbsp;".$wb_img.$wb_title;
+                $ua = $os_img."&nbsp;".$os_title."&nbsp;|&nbsp;".$wb_img."&nbsp;".$wb_title;
                 break;
             default :
                 $ua = $os_img."&nbsp;|&nbsp;".$wb_img;
